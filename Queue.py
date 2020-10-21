@@ -5,7 +5,7 @@ or first come first serve.
 
 #Implementation
 
-class queue(object):
+class Queue(object):
 
 	def __init__(self):
 		self.items = []
@@ -24,7 +24,7 @@ class queue(object):
 
 #Create an instance of the class and test some of its methods
 
-q = queue()
+q = Queue()
 q.enqueu(22)
 q.enqueu(33)
 q.enqueu('bus')

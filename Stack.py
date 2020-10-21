@@ -2,7 +2,7 @@
 #is the first object to come out
 
 #Implementation
-class stack(object):
+class Stack(object):
 	def __init__(self):
 		self.items = []
 
@@ -22,7 +22,7 @@ class stack(object):
 		return len(self.items)
 
 #create an instance of the stack and test few methods
-s = stack()
+s = Stack()
 s.push(2)
 s.push(44)
 s.push('cars')

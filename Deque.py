@@ -1,12 +1,12 @@
 """
-Dequeue - this is a collection of items where items can be added from either side, does not conform,
+Deque - this is a collection of items where items can be added from either side, does not conform,
 to LIFO nor FIFO rules.
 
 """
 
 #Implementation
 
-class dequeue(object):
+class Deque(object):
 	def __init__(self):
 		self.items = []
 
@@ -30,7 +30,7 @@ class dequeue(object):
 
 #Create an an instance and test some methods
 
-d = dequeue()
+d = Deque()
 d.addFront(1)
 d.addRear(2)
 d.addFront('car')
