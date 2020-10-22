@@ -1,7 +1,7 @@
-# Data Structures in Python
-## Stacks
-## Queues
-## Dequeus
+# Data Structures 
+## Stack
+## Queue
+## Deque
 ## Linked Lists
 ## Trees
 ## Multisets

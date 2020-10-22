@@ -4,7 +4,7 @@ to LIFO nor FIFO rules.
 
 """
 
-#Implementation
+#Python Implementation
 
 class Deque(object):
 	def __init__(self):

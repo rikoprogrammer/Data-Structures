@@ -3,7 +3,7 @@ or first come first serve.
 
 """
 
-#Implementation
+#Python Implementation
 
 class Queue(object):
 

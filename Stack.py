@@ -1,7 +1,7 @@
 #stacks - a collection of objects based on LIFO criteria i.e last in object 
 #is the first object to come out
 
-#Implementation
+#Python Implementation
 class Stack(object):
 	def __init__(self):
 		self.items = []
